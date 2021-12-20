@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Disassembly	ctarget.s	/^Disassembly of section .fini:$/;"	l
+Disassembly	ctarget.s	/^Disassembly of section .init:$/;"	l
+Disassembly	ctarget.s	/^Disassembly of section .plt:$/;"	l
+Disassembly	ctarget.s	/^Disassembly of section .text:$/;"	l
+add_xy	farm.c	/^long add_xy(long x, long y)$/;"	f
+addval_110	farm.c	/^unsigned addval_110(unsigned x)$/;"	f
+addval_113	farm.c	/^unsigned addval_113(unsigned x)$/;"	f
+addval_124	farm.c	/^unsigned addval_124(unsigned x)$/;"	f
+addval_184	farm.c	/^unsigned addval_184(unsigned x)$/;"	f
+addval_187	farm.c	/^unsigned addval_187(unsigned x)$/;"	f
+addval_190	farm.c	/^unsigned addval_190(unsigned x)$/;"	f
+addval_201	farm.c	/^unsigned addval_201(unsigned x)$/;"	f
+addval_219	farm.c	/^unsigned addval_219(unsigned x)$/;"	f
+addval_273	farm.c	/^unsigned addval_273(unsigned x)$/;"	f
+addval_358	farm.c	/^unsigned addval_358(unsigned x)$/;"	f
+addval_404	farm.c	/^unsigned addval_404(unsigned x)$/;"	f
+addval_436	farm.c	/^unsigned addval_436(unsigned x)$/;"	f
+addval_479	farm.c	/^unsigned addval_479(unsigned x)$/;"	f
+addval_487	farm.c	/^unsigned addval_487(unsigned x)$/;"	f
+addval_490	farm.c	/^unsigned addval_490(unsigned x)$/;"	f
+ctarget	ctarget.s	/^ctarget:     file format elf64-x86-64$/;"	l
+end_farm	farm.c	/^int end_farm()$/;"	f
+getval_142	farm.c	/^unsigned getval_142()$/;"	f
+getval_155	farm.c	/^unsigned getval_155()$/;"	f
+getval_159	farm.c	/^unsigned getval_159()$/;"	f
+getval_169	farm.c	/^unsigned getval_169()$/;"	f
+getval_226	farm.c	/^unsigned getval_226()$/;"	f
+getval_272	farm.c	/^unsigned getval_272()$/;"	f
+getval_280	farm.c	/^unsigned getval_280()$/;"	f
+getval_311	farm.c	/^unsigned getval_311()$/;"	f
+getval_345	farm.c	/^unsigned getval_345()$/;"	f
+getval_472	farm.c	/^unsigned getval_472()$/;"	f
+getval_481	farm.c	/^unsigned getval_481()$/;"	f
+mid_farm	farm.c	/^int mid_farm()$/;"	f
+setval_167	farm.c	/^void setval_167(unsigned *p)$/;"	f
+setval_181	farm.c	/^void setval_181(unsigned *p)$/;"	f
+setval_237	farm.c	/^void setval_237(unsigned *p)$/;"	f
+setval_248	farm.c	/^void setval_248(unsigned *p)$/;"	f
+setval_276	farm.c	/^void setval_276(unsigned *p)$/;"	f
+setval_296	farm.c	/^void setval_296(unsigned *p)$/;"	f
+setval_299	farm.c	/^void setval_299(unsigned *p)$/;"	f
+setval_328	farm.c	/^void setval_328(unsigned *p)$/;"	f
+setval_350	farm.c	/^void setval_350(unsigned *p)$/;"	f
+setval_384	farm.c	/^void setval_384(unsigned *p)$/;"	f
+setval_424	farm.c	/^void setval_424(unsigned *p)$/;"	f
+setval_426	farm.c	/^void setval_426(unsigned *p)$/;"	f
+setval_450	farm.c	/^void setval_450(unsigned *p)$/;"	f
+setval_470	farm.c	/^void setval_470(unsigned *p)$/;"	f
+start_farm	farm.c	/^int start_farm()$/;"	f
