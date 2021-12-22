@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	tracegen.c	/^static int A[256][256];$/;"	v	file:
+B	tracegen.c	/^static int B[256][256];$/;"	v	file:
+CACHELAB_TOOLS_H	cachelab.h	6;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -Werror -std=c99 -m64$/;"	m
+E	csim.c	/^static int s, E, b;$/;"	v	file:
+M	test-trans.c	/^static int M = 0;$/;"	v	file:
+M	tracegen.c	/^static int M;$/;"	v	file:
+MARKER_END	tracegen.c	/^volatile char MARKER_START, MARKER_END;$/;"	v
+MARKER_START	tracegen.c	/^volatile char MARKER_START, MARKER_END;$/;"	v
+MAXN	test-trans.c	19;"	d	file:
+MAX_TRANS_FUNCS	cachelab.h	8;"	d
+N	test-trans.c	/^static int N = 0;$/;"	v	file:
+N	tracegen.c	/^static int N;$/;"	v	file:
+SUBMIT_DESCRIPTION	test-trans.c	23;"	d	file:
+address	csim.c	/^	unsigned address;$/;"	m	struct:trace_line	file:
+b	csim.c	/^static int s, E, b;$/;"	v	file:
+block_offset	csim.c	/^	int block_offset;$/;"	m	struct:mem_addr	file:
+cache_line	csim.c	/^struct cache_line {$/;"	s	file:
+computeMissScore	driver.py	/^def computeMissScore(miss, lower, upper, full_score):$/;"	f
+correct	cachelab.h	/^  char correct;$/;"	m	struct:trans_func
+correct	test-trans.c	/^    int correct;$/;"	m	struct:results	file:
+correctTrans	cachelab.c	/^void correctTrans(int M, int N, int A[N][M], int B[M][N])$/;"	f
+description	cachelab.h	/^  char* description;$/;"	m	struct:trans_func
+eval_perf	test-trans.c	/^void eval_perf(unsigned int s, unsigned int E, unsigned int b)$/;"	f
+func_counter	cachelab.c	/^int func_counter = 0; $/;"	v
+func_list	cachelab.c	/^trans_func_t func_list[MAX_TRANS_FUNCS];$/;"	v
+func_ptr	cachelab.h	/^  void (*func_ptr)(int M,int N,int[N][M],int[M][N]);$/;"	m	struct:trans_func
+funcid	test-trans.c	/^    int funcid;$/;"	m	struct:results	file:
+identifier	csim.c	/^	char identifier;$/;"	m	struct:trace_line	file:
+initMatrix	cachelab.c	/^void initMatrix(int M, int N, int A[N][M], int B[M][N])$/;"	f
+is_transpose	trans.c	/^int is_transpose(int M, int N, int A[N][M], int B[M][N])$/;"	f
+lru_cnt	csim.c	/^	int lru_cnt;$/;"	m	struct:cache_line	file:
+main	csim.c	/^int main(int argc, char** argv)$/;"	f
+main	driver.py	/^def main():$/;"	f
+main	test-trans.c	/^int main(int argc, char* argv[])$/;"	f
+main	tracegen.c	/^int main(int argc, char* argv[]){$/;"	f
+mem_addr	csim.c	/^struct mem_addr {$/;"	s	file:
+misses	test-trans.c	/^    int misses;$/;"	m	struct:results	file:
+num_evictions	cachelab.h	/^  unsigned int num_evictions;$/;"	m	struct:trans_func
+num_hits	cachelab.h	/^  unsigned int num_hits;$/;"	m	struct:trans_func
+num_misses	cachelab.h	/^  unsigned int num_misses;$/;"	m	struct:trans_func
+parse_args	csim.c	/^static void parse_args(int argc, char** argv) {$/;"	f	file:
+printSummary	cachelab.c	/^void printSummary(int hits, int misses, int evictions)$/;"	f
+randMatrix	cachelab.c	/^void randMatrix(int M, int N, int A[N][M]) {$/;"	f
+registerFunctions	trans.c	/^void registerFunctions()$/;"	f
+registerTransFunction	cachelab.c	/^void registerTransFunction(void (*trans)(int M, int N, int[N][M], int[M][N]), $/;"	f
+results	test-trans.c	/^static struct results results = {-1, 0, INT_MAX};$/;"	v	typeref:struct:results	file:
+results	test-trans.c	/^struct results {$/;"	s	file:
+s	csim.c	/^static int s, E, b;$/;"	v	file:
+set_index	csim.c	/^	int set_index;$/;"	m	struct:mem_addr	file:
+sigalrm_handler	test-trans.c	/^void sigalrm_handler(int signum){$/;"	f
+sigsegv_handler	test-trans.c	/^void sigsegv_handler(int signum){$/;"	f
+size	csim.c	/^	int size;$/;"	m	struct:trace_line	file:
+tag	csim.c	/^	int tag;$/;"	m	struct:cache_line	file:
+tag_bits	csim.c	/^	int tag_bits;$/;"	m	struct:mem_addr	file:
+trace_file	csim.c	/^static const char* trace_file;$/;"	v	file:
+trace_line	csim.c	/^struct trace_line {$/;"	s	file:
+trans	trans.c	/^void trans(int M, int N, int A[N][M], int B[M][N])$/;"	f
+trans_desc	trans.c	/^char trans_desc[] = "Simple row-wise scan transpose";$/;"	v
+trans_func	cachelab.h	/^typedef struct trans_func{$/;"	s
+trans_func_t	cachelab.h	/^} trans_func_t;$/;"	t	typeref:struct:trans_func
+transpose_submit	trans.c	/^void transpose_submit(int M, int N, int A[N][M], int B[M][N])$/;"	f
+transpose_submit_desc	trans.c	/^char transpose_submit_desc[] = "Transpose submission";$/;"	v
+usage	test-trans.c	/^void usage(char *argv[]){$/;"	f
+valid_bit	csim.c	/^	int valid_bit;$/;"	m	struct:cache_line	file:
+validate	tracegen.c	/^int validate(int fn,int M, int N, int A[N][M], int B[M][N]) {$/;"	f
