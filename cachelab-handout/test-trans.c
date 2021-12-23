@@ -244,7 +244,7 @@ int main(int argc, char* argv[])
 
     /* Check the performance of the student's transpose function */
     eval_perf(5, 1, 5);
-  
+
     /* Emit the results for this particular test */
     if (results.funcid == -1) {
         printf("\nError: We could not find your transpose_submit() function\n");

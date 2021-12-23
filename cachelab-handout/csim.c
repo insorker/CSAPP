@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#define CSIM_DEBUG 0
+#define CSIM_DEBUG 1
 #if CSIM_DEBUG
 #define db_cache_address 1
 #define db_printSummary 1
@@ -124,8 +124,8 @@ static void parse_args(int argc, char** argv) {
 	}
 	else if (trace_disp) {
 		Trace_Line trace;
-		while (fscanf(pFile, " %c %lld,%d", &trace.op, &trace.addr, &trace.size) > 0) {
-			printf("%c %lld,%d\n", trace.op, trace.addr, trace.size);
+		while (fscanf(pFile, " %c %llx,%d", &trace.op, &trace.addr, &trace.size) > 0) {
+			printf("%c %llx,%d\n", trace.op, trace.addr, trace.size);
 		}
 	}
 
@@ -161,7 +161,7 @@ void parse_trace_line() {
 		parse_trace_address(tl.addr, &ca);
 		#if db_cache_address
 			printf("%c %llx\n", tl.op, tl.addr);
-			printf("%d %d %d\n\n", ca.tag_bits, ca.set_index, ca.block_offset);
+			printf("%d %d %d\n", ca.tag_bits, ca.set_index, ca.block_offset);
 		#endif
 		
 		switch (tl.op) {
