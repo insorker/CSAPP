@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#define CSIM_DEBUG 1
+#define CSIM_DEBUG 0
 #if CSIM_DEBUG
 #define db_cache_address 1
 #define db_printSummary 1
